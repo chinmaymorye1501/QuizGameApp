@@ -72,3 +72,4 @@ for q in questions:
         print("Wrong!")
 
 print(f"\nFinal Score: {score}/{len(questions)}")
+print("Quiz completed")
