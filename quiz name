@@ -1,5 +1,7 @@
 import random
 print("Welcome to my  quiz")
+name = input("Enter your name: ")
+print(f"Welcome {name} to the quiz!")
 score=0
 questions = [
     {
