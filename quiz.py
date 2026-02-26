@@ -1,5 +1,6 @@
 import random
 print("Welcome to my  quiz")
+score=0
 questions = [
     {
         "question": "Capital of India?",
