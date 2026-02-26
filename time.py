@@ -57,6 +57,7 @@ questions = [
 ]
 
 random.shuffle(questions)
+
 print("timer feature to quiz game")
 start = time.time()
 answer = input("Your answer: ")
