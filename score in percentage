@@ -70,6 +70,8 @@ for q in questions:
         score += 1
     else:
         print("Wrong!")
-
+percentage = (score / len(questions)) * 100
 print(f"\nFinal Score: {score}/{len(questions)}")
 print("Quiz completed")
+
+print(f"Your percentage: {percentage:.2f}%")
