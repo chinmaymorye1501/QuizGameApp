@@ -1,6 +1,5 @@
 import random
-score=0
-print("welcome to quiz game")
+print("Welcome to my  quiz")
 questions = [
     {
         "question": "Capital of India?",
