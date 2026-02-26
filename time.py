@@ -66,6 +66,19 @@ answer = input("Your answer: ")
 
 score = 0
 
+difficulty = input("Choose difficulty (easy/hard): ").lower()
+
+if difficulty == "easy":
+    selected_questions = questions[:5]
+elif difficulty == "hard":
+    selected_questions = questions
+else:
+    print("Invalid choice, defaulting to easy.")
+    selected_questions = questions[:5]
+
+for q in selected_questions:
+    print(q["question"])
+    answer = input("Your answer: ")
 for q in questions:
     print("\n" + q["question"])
     for option in q["options"]:
