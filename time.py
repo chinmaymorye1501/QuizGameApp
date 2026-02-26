@@ -79,6 +79,11 @@ for q in questions:
     else:
         print("Wrong!")
 
+name = input("Enter your name: ")
+with open("scores.txt", "a") as file:
+    file.write(f"{name}: {score}\n")
+
+print("Score saved successfully!")
 print(f"\nFinal Score: {score}/{len(questions)}")
 end = time.time()
 print("Time taken:", round(end - start, 2), "seconds")
